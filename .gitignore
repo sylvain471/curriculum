@@ -9,3 +9,9 @@
 
 # Ignore PDF files
 *.pdf
+
+# Ignore latexmk
+*.fdb_latexmk
+
+# Ignore fls
+*.fls
