@@ -1,20 +1,15 @@
 % Preamble
 % Compile with XeLateX
-% xelatex -interaction=nonstopmode CV_SDelahaies_fr.tex 
+% xelatex -interaction=nonstopmode CV_SDelahaies_en.tex 
 
 \documentclass[11 pt,oneside,a4paper,titlepage]{article}
 \usepackage{preamble}
 \usepackage{enumitem}
 \usepackage{amsmath,amssymb}
 
-
-%\usepackage{caladea}
-%\usepackage[T1]{fontenc}
 \usepackage[latin9]{inputenc}
 \usepackage{setspace}
 
-%\usepackage[T1]{fontenc}
-%\usepackage[onehalfspacing]{setspace}
 
 \graphicspath{{PIC/}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -24,90 +19,74 @@
 \simpleheader{titleBackColor}{Sylvain}{Delahaies}{Data Scientist | Data Engineer | ML Engineer}{white}{QR_En.png}{https://sdelahaies.fr/index_en.html}{photo1.jpg}
 
 % Start Minipages
-\vspace*{2.99cm}% start 8 cm from the top of the page}
-    \adjustbox{valign=t}{\begin{minipage}{6.3cm} % large 7.4 cm from the top
-    \vspace*{1.2cm} % text starts 1cm under the top of the minipage
+\vspace*{2.99cm}% 
+\adjustbox{valign=t}{\begin{minipage}{6.3cm} % 
+        \vspace*{1.2cm} % 
 
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % Profile section
         \vspace*{0.22cm}
         \ruleline{\textbf{In brief}}
-        %Mathématicien, après plus de dix ans de recherche fondamentale et appliquée dans la data j'ai repris un parcours de formation en Data Science et Data Engineering. Rompu à la veille scientifique et technologique, à la conception et à l’implémentation de méthodes innovantes pour exploiter les données, mon objectif est de concevoir, développer et déployer des solutions d'IA.\\
-        %Mathématicien, après plus de dix ans de recherche fondamentale et appliquée dans la data j'ai repris un parcours de formation en Data Engineering. Rompu à la conception et à l’implémentation de méthodes innovantes pour exploiter les données, mon objectif est de concevoir, développer et déployer des solutions d'IA.\\
-        Mathematician, after over ten years of academic research in fundamental and applied data sciences, I have embarked on a path in Data Engineering and AI. Experienced in designing and implementing innovative methods for data exploitation, I design, develop, and deploy AI solutions.
+          Mathematician, after over ten years of academic research in fundamental and applied data sciences, I have embarked on a path in Data Engineering and AI. Experienced in designing and implementing innovative methods for data exploitation, I design, develop, and deploy AI solutions.
 
         \vspace*{0.22cm}
-                
-            
+
+
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % Contact Section
         \ruleline{\textbf{Personal Info}}
         \vspace*{0.02cm}
 
         \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
-        \matrix [
-        column 1/.style={anchor=center,contactIcon},
-        column 2/.style={anchor=west,align=left,contactIcon},
-        column sep=5pt,
-        row sep=5pt] (contact) {
-         \node{\faEnvelopeO}; & \node{\href{mailto:sdelahaies@gmail.com}{sdelahaies@gmail.com}};\\
-         \node{\includegraphics[height=0.7cm]{www.png}}; & \node{Web site: \href{https://sdelahaies.fr}{sdelahaies.fr}};\\
-         \node{\includegraphics[height=0.5cm]{logo-github.png}}; & \node{Github: \href{https://github.com/sdelahaies}{sdelahaies}};\\
-         \node{\includegraphics[height=0.5cm]{linkedin.png}}; & \node{Linkedin: \href{https://www.linkedin.com/in/sylvaindelahaies}{sylvaindelahaies}};\\
-         \node{\includegraphics[height=0.7cm]{researchgate-svgrepo-com.png}}; & \node{\href{https://www.researchgate.net/profile/Sylvain-Delahaies-2/}{Research Gate}};\\
-        \node{\faMapMarker}; & \node{\href{https://wikimapia.org/#lang=fr&lat=45.118872&lon=1.236005&z=15&m=o}{Condat-sur-Vézère}, Dordogne, FR};\\};
-        \end{tikzpicture} 
+            \matrix [
+                column 1/.style={anchor=center,contactIcon},
+                column 2/.style={anchor=west,align=left,contactIcon},
+                column sep=5pt,
+                row sep=5pt] (contact) {
+                \node{\faEnvelopeO};          & \node{\href{mailto:sdelahaies@gmail.com}{sdelahaies@gmail.com}};                                        \\
+                \node{\includegraphics[height=0.7cm]{www.png}}; & \node{Web site: \href{https://sdelahaies.fr}{sdelahaies.fr}};                              \\
+                \node{\includegraphics[height=0.5cm]{logo-github.png}}; & \node{Github: \href{https://github.com/sdelahaies}{sdelahaies}};                                \\
+                \node{\includegraphics[height=0.5cm]{linkedin.png}}; & \node{Linkedin: \href{https://www.linkedin.com/in/sylvaindelahaies}{sylvaindelahaies}};                              \\
+                \node{\includegraphics[height=0.7cm]{researchgate-svgrepo-com.png}}; & \node{\href{https://www.researchgate.net/profile/Sylvain-Delahaies-2/}{Research Gate}};                                       \\
+                \node{\faMapMarker};          & \node{\href{https://wikimapia.org/#lang=fr&lat=45.118872&lon=1.236005&z=15&m=o}{Condat-sur-Vézère}, Dordogne, FR};\\};
+        \end{tikzpicture}
         \vspace*{-0.22cm}
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         \ruleline{\textbf{Languages Skills}}
         \vspace*{0.02cm}
 
         \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
-        \matrix [
-        column 1/.style={anchor=center,contactIcon},
-        column 2/.style={anchor=west,align=left,contactIcon},
-        column sep=5pt,
-        row sep=5pt] (contact) {
-        \node{\flag{France.png}};
-        & \node{French - Native};\\
-        \node{\flag{England.png}};
-        & \node{English - Professional Proficiency};\\
-        };
-        \end{tikzpicture} 
+            \matrix [
+                column 1/.style={anchor=center,contactIcon},
+                column 2/.style={anchor=west,align=left,contactIcon},
+                column sep=5pt,
+                row sep=5pt] (contact) {
+                \node{\flag{France.png}};
+                 & \node{French - Native};                    \\
+                \node{\flag{England.png}};
+                 & \node{English - Professional Proficiency}; \\
+            };
+        \end{tikzpicture}
         \vspace*{0.22cm}
 
         \ruleline{\textbf{Education}}
         \begin{itemize}[leftmargin=*]
-         \item {\textbf{Data Engineering} \textit{Jan-Apr 2023}\\
-         DataScientest, Paris.}   
-         \item {\textbf{PhD} \textit{2005\--2008} \\
-        Mathematics \& Fluid Dynamics\\
-        University of Surrey}
-        \item {\textbf{MSc} \textit{2004\--2005} \\
-        Hydro-Informatics\\
-        University of Surrey}
-        \item{\textbf{MPhil} \textit{1999\--2004} \\
-        Mathématiques et Applications\\
-        Université d'Angers}
+            \item {\textbf{Data Engineering} \textit{Jan-Apr 2023}\\
+                  DataScientest, Paris.}
+            \item {\textbf{PhD} \textit{2005\--2008} \\
+                  Mathematics \& Fluid Dynamics\\
+                  University of Surrey}
+            \item {\textbf{MSc} \textit{2004\--2005} \\
+                  Hydro-Informatics\\
+                  University of Surrey}
+                  \item{\textbf{MPhil} \textit{1999\--2004} \\
+                              Mathématiques et Applications\\
+                              Université d'Angers}
         \end{itemize}
 
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % Other Interests
         \ruleline{\textbf{Interests \& Activities}}
-        % \begin{multicols}{2}
-        % \begin{itemize} [leftmargin=*]
-        %     \item  Municipal Elected Official 
-        %     \item  Heritage Association Vice-President  
-        %     \item  Technologies
-        %     \item  Piano, Guitare
-        %     \item  Lutherie
-        %     \item  Informatique
-        %     \item  Linux
-        %     \item  Rénovation
-        %     \item  Randonnée
-        %     \item  Patrimoine
-        % \end{itemize}
-        % \end{multicols}
         \begin{itemize}[leftmargin=*]
             \item{Municipal Elected Official}
             \item{Vice-President of the Association \textit{Commanderie de Condat} Cultural Heritage \href{https://commanderiecondat.fr/}{CCCH}}
@@ -115,111 +94,36 @@
             \item{Piano, Guitar, Lutherie}
         \end{itemize}
     \end{minipage}} %
-    \hfill 
+\hfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%% MAIN SECTION %%%%%%%%%%%%%%%%%%%%
-    \adjustbox{valign=t}{\begin{minipage}{12.3cm}
+\adjustbox{valign=t}{\begin{minipage}{12.3cm}
         \vspace*{1cm}
-            % Information Technology Skills
+        % Information Technology Skills
         \section*{SKILLS}
         \begin{minipage}{12cm}
             \begin{spacing}{1.3}
                 {\bullet} Solid training in mathematics, data sciences and artificial intelligence.\\
                 {\bullet} Programming experience in Python, Java, Javascript, R, MATLAB, C ...\\
-                %{\bullet} Proficiency in Python, TensorFlow, or PyTorch for development.\\
                 {\bullet} Strong understanding of machine learning algorithms and architectures.\\
                 {\bullet} Experience of deep learning models for CV, NLP, RL and LLMs.\\
-                %{\bullet} Experience with generative models like GANs, VAEs, and transformers.\\
-                %{\bullet} Advanced knowledge of probability theory and stochastic processes.\\
-                %{\bullet} Ability to preprocess and manipulate large-scale datasets efficiently.\\
                 {\bullet} Design of data acquisition, cleaning and transformation pipelines.\\
-                %{\bullet} Familiarity with deep learning frameworks for model training and evaluation.\\
                 {\bullet} Skill in optimizing models for performance and scalability.\\
                 {\bullet} Experience in deploying AI models in production environments.\\
-                %{\bullet} Expertise in evaluating and interpreting model results and performance metrics.\\
                 {\bullet} Practice with relational, non-relational, and graph-oriented databases.\\
                 {\bullet} Practice with orchestration, containerization and CI/CD.\\
                 {\bullet} Practice with Big Data solutions: streaming, distributed processing.\\
-                {\bullet} Practice with AWS cloud computing, sagemaker, terraform IaaC.\\     
-                {\bullet} Strong problem-solving skills and adaptability to new technologies.\\           
+                {\bullet} Practice with AWS cloud computing, sagemaker, terraform IaaC.\\
+                {\bullet} Strong problem-solving skills and adaptability to new technologies.\\
                 {\bullet} Technical and non-technical communication through various mediums.\\
-                %: articles, conferences, reports, posters, websites, dashboards.\\
                 {\bullet} Collaboration with multidisciplinary teams on various subjects.\\
                 {\bullet} Research, technological and scientific watch.
-                % {\bullet} Solid training in mathematics, data sciences and artificial intelligence.\\
-                % {\bullet} Programming experience in Python, Java, Javascript, R, MATLAB, C ...\\
-                % {\bullet} Design of data acquisition, cleaning, transformation, and storage pipelines.\\
-                % {\bullet} Statistical modeling and machine learning for predictive model creation. \\
-                % {\bullet} Implementation of deep learning techniques for computer vision, natural language processing, reinforcement learning.\\
-                % {\bullet} Practive of Advanced techniques for generative AI.\\
-                % %{\bullet} Practive of Advanced techniques for generative AI, finetuning, transfer learning, QLora, distillation...\\
-                % %{\bullet} Maîtrise des langages de programmation tels que Python, R, SQL, Java, Scala, etc.\\
-                % %{\bullet} Connaissance des outils de manipulation de données tels que Pandas, NumPy, Spark, etc.\\
-                % %{\bullet} Capacité à concevoir et à mettre en œuvre des pipelines de données pour l'ingestion, le nettoyage, la transformation et le stockage de données.\\
-                % {\bullet} Practice with relational, non-relational, and graph-oriented databases.\\
-                % %{\bullet} Practice with Big Data solutions: streaming, distributed processing.\\
-                % %{\bullet} Development of web applications for data visualization and user interaction.\\
-                % %{\bullet} Development of APIs for data access and model deployment.\\
-                % {\bullet} Pratice with AWS cloud computing solutions, sagemaker, terraform IaaS.\\                
-                % %{\bullet} Compétences en informatique distribuée pour le traitement de données à grande échelle.\\
-                % {\bullet} Practice with orchestration, containerization, continuous integration and deployment tools.\\
-                % {\bullet} Technical and non-technical communication through various mediums: articles, conferences, reports, posters, websites, dashboards.\\
-                % {\bullet} Collaboration with multidisciplinary teams on various subjects.\\
-                % {\bullet} Research, technological and scientific watch.
             \end{spacing}
-        \end{minipage}    
-        %\vspace*{0.5cm}
-        %{\bullet} Capacité à travailler avec des outils de visualisation de données\\
-
-        % \section*{ COMPETENCES}
-            
-        %     \begin{multicols*}{2}
-        %         \textbf{Data Science}\\
-        %         \bullet \; Data analysis \& visualisation\\ 
-        %         \bullet \; Data assimilation\\ 
-        %         \bullet \; Machine Learning\\
-        %         \bullet \; Deep learning\\
-        %         \bullet \; Recommendation System\\
-        %         \bullet \; Geophysical Fluid dynamics
-        %         \vfill\null
-        %         \columnbreak
-        %         \textbf{Langages \& Outils}\\
-        %         \bullet \; python, bash, \LaTeX, Git, Matlab\\
-        %         \bullet \; pytorch, tensorflow, sklearn\\
-        %         \bullet \; VS code, jupyter, Android Studio\\
-
-        %         \textbf{Isolation \& Orchestration}\\
-        %         \bullet \; Docker, Kubernetes, Airflow
-        %     \end{multicols*}
-
-        %     %\vspace*{0.22cm}
-        %     \vspace*{-0.2cm}
-        %     \begin{multicols*}{3}
-        %         \textbf{Bases de données}\\
-        %         \bullet \; SQL \& NoSQL\\ 
-        %         \bullet \; MongoDB\\
-        %         \bullet \; ElasticSearch\\
-        %         \bullet \; Neo4j
-        %         \vfill\null
-        %         \columnbreak
-        %         \textbf{Big Data}\\
-        %         \bullet \; Java Spark\\
-        %         \bullet \; Pyspark\\ 
-        %         \bullet \; Hadoop Hive\\
-        %         \bullet \; Kafka\\
-
-        %         \textbf{Développement}\\
-        %         \bullet \; Fastapi\\
-        %         \bullet \; Flask\\
-        %         \bullet \; Dash\\
-        %         \bullet \; Streamlit\\
-        %     \end{multicols*}
-        
+        \end{minipage}
+   
         % Work Experience
         \vspace*{-0.22cm}
-        %\vspace*{0.22cm}
- 
- 
+
         \section*{EXPERIENCE}
 
         \textbf{Machine Learning Engineer} \hfill Aug 2023\--present\\
@@ -245,7 +149,7 @@
         \textbf{Post-doctoral Research Assistant} \hfill 2009\--2020\\
         \textbf{\href{https://www.surrey.ac.uk/department-mathematics}{University of Surrey}} \-- full-remote\hfill Guildford, UK\\
         $\star$ \textbf{Data Assimilation and Stochastic Point Processes}\\
-        
+
         \vspace*{-0.2cm}
         \hspace*{0.2cm}
         \begin{minipage}{12cm}
@@ -255,7 +159,7 @@
         \end{minipage}
 
         $\star$ \textbf{Data Assimilation and Terrestrial Ecosystems}\\
-        
+
         \vspace*{-0.2cm}
         \hspace*{0.2cm}
         \begin{minipage}{12cm}
@@ -264,8 +168,7 @@
             {\bullet} Development of variational tools to evaluate the information content of different observation fluxes in Carbon cycle models. \\
         \end{minipage}
 
-        $\star$ \textbf{Teaching:} Numerical soultions for PDEs \hfill 2011\--2012\\
-        %$\star$ \textbf{Communication:} \href{https://www.researchgate.net/profile/Sylvain-Delahaies-2/}{publications, posters, conferences, seminars.}        
+        $\star$ \textbf{Teaching:} Numerical soultions for PDEs \hfill 2011\--2012\\   
     \end{minipage}} %
 
 \end{document}
