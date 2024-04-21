@@ -1,0 +1,11 @@
+# Ignore log files
+*.log
+
+# Ignore output files
+*.out
+
+# Ignore auxiliary files
+*.aux
+
+# Ignore PDF files
+*.pdf
